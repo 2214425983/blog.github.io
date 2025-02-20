@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页 | 我的博客</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav class="compact-nav">
+      <ul>
+        <li><a href="./index.html" class="nav-item">首页</a></li>
+        <li><a href="./history.html" class="nav-item">历史博文</a></li>
+        <li><a href="./about.html" class="nav-item">关于我</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-container">
+    <!-- 侧边栏 -->
+    <aside class="sidebar">
+      <section class="widget">
+        <h2 class="widget-title">最新文章</h2>
+        <ul class="article-list"></ul>
+      </section>
+
+      <section class="widget">
+        <h2 class="widget-title">热门标签</h2>
+        <div class="tag-cloud">
+          <a href="#" class="tag">Minecraft</a>
+          <a href="#" class="tag">材质包</a>
+          <a href="#" class="tag">布吉岛</a>
+          <a href="#" class="tag">hypixel</a>
+          <a href="#" class="tag">加速IP</a>
+        </div>
+      </section>
+
+      <section class="widget">
+        <h2 class="widget-title">博客统计</h2>
+        <div class="stats">
+          <div class="stat-item">
+            <span class="stat-number">2</span>
+            <span class="stat-label">文章总数</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">1,289</span>
+            <span class="stat-label">阅读量</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">0</span>
+            <span class="stat-label">评论数</span>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- 主要内容 -->
+    <main class="content">
+      <section class="featured-posts">
+        <h2 class="section-title">我的主页</h2>
+        <div class="post-grid">
+          <article class="post-card featured">
+            <div class="post-thumbnail">
+              <img src="profile.jpg" alt="精选文章配图">
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">Bilibili</h3>
+              <p class="post-excerpt">你好啊，我是星辰，一个热爱minecraft的玩家，期待和你相遇</p>
+              <a href="https://space.bilibili.com/3493079659055979?spm_id_from=333.337.0.0" class="read-more">点击前往 →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+ </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
